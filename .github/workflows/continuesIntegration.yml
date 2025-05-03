@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  demo-job:
+  Continues-Integration:
     runs-on: ubantu-latest
 
     steps:
