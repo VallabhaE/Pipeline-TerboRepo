@@ -1,0 +1,16 @@
+name: Continues Intigration
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  demo-job:
+    runs-on: ubantu-latest
+
+    steps:
+      - run: echo "CI Actions Begins"
+
+      - name: "Build Process Triggered"
+        run: npm run build
