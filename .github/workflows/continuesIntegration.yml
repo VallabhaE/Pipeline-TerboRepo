@@ -11,6 +11,7 @@ jobs:
 
     steps:
       - run: echo "CI Actions Begins"
-
+      - name: "Install Dependencys"
+        run: npm i
       - name: "Build Process Triggered"
         run: npm run build
